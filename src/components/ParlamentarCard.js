@@ -58,18 +58,6 @@ const ParlamentarCard = (props) => {
               <i className="fa fa-envelope"></i> E-mail
             </span>
           </a>
-
-          <a className="Button Button--primary" target="_blank" href={data.politico_facebook}>
-            <span className="">
-              <i className="fa fa-facebook"></i> Facebook
-            </span>
-          </a>
-
-          <a className="Button Button--primary" href={data.politico_twitter}>
-            <span className="">
-              <i className="fa fa-twitter"></i> Twitter
-            </span>
-          </a>
         </div>
       </Col>
     </Row>

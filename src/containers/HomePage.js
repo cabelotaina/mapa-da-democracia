@@ -37,11 +37,6 @@ class HomePage extends Component {
             return ((data['politico_comissao'] == 'sim' && data['politico_impeachment'] == 'CONTRA') ? <ParlamentarIcon data={data} /> : '');
           }))}
         </div>
-        <div className="filter-infografico">
-          <span className="hint--top hint--rounded hint--bounce hint--primary" data-hint="Texto introdutório sobre a comissão."><Pill label="Comissão de relatoria" type="primary-inverted" /></span>
-          <Pill label="Todos deputados" type="primary" onClear={this.handleClear} />
-          <Pill label="Todos senadores" type="primary" onClear={this.handleClear} />
-        </div>
         <Card>
           <h2>Colabore  com essa campanha, mobilize mais gente. Vamos juntos barrar o Golpe!</h2> 
           <br/>

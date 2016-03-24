@@ -2,7 +2,6 @@ import React, { PropTypes } from 'react';
 import { Link } from 'react-router';
 
 const NavItems = [
-	{ value: '/bancadas',     label: 'bancadas' },
 	{ value: '/parlamentares', label: 'parlamentares' },
   { value: '/sobre', label: 'sobre' }
 	// { value: 'date-picker', label: 'Date Picker' }
